@@ -1,8 +1,6 @@
 # Wolof Subtitles Generator API
 
-Cette API a été créée par Djim Momar Lo dans le cadre du projet **Whisper Wolof**. Vous pouvez trouver le code source de ce projet sur GitHub : [https://github.com/lodjim](https://github.com/lodjim).
-
-Elle permet de générer des sous-titres en wolof pour des fichiers audio et de créer des vidéos avec les sous-titres incrustés. L'API utilise le modèle de traitement automatique du langage naturel [whisper-small-wolof](https://huggingface.co/cifope/whisper-small-wolof) pour générer les transcriptions et les sous-titres.
+Wolof Subtitles Generator permet de générer des sous-titres en wolof pour des fichiers audio et de créer des vidéos avec les sous-titres incrustés. L'API utilise le modèle de traitement automatique du langage naturel [whisper-small-wolof](https://huggingface.co/cifope/whisper-small-wolof) pour générer les transcriptions et les sous-titres.
 
 ## Prérequis
 
