@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
    source env/bin/activate
    pip install -r requirements.txt
    ```
-4. **Dépendances Modele**: Téléchargez le modèle directement depuis google drive à l'aide de la commande curl :
+4. **Dépendances Modele**: Téléchargez le modèle directement depuis google drive à l'aide de la commande gdown :
    
    ```bash
    pip3 install gdown
