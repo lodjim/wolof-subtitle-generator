@@ -103,7 +103,7 @@ class APIServer:
         subprocess.call(cmd, shell=True)
         cmd = f'ffmpeg -i ./.cache/{prefix}output.mp4 -vf "subtitles=.cache/{prefix}subtitles.srt" static/video/{prefix}-video.mp4'
         subprocess.call(cmd, shell=True)
-        static_video_path = f"https://{self.host}:{self.port}/static/video/{prefix}-video.mp4"
+        static_video_path = f"http://{self.host}:{self.port}/static/video/{prefix}-video.mp4"
         return (srt,text,static_video_path)
         
     def start_server(self):
